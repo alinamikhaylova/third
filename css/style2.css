@@ -1,0 +1,391 @@
+h1,h2,h3,h4,h5,h6,ul,ol,p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+body{
+   
+   background: #fbfcfc;
+   font-family: 'Nunito Sans'
+}
+header{
+    background: url('../images/Warstwa 1.png')no-repeat center center/ cover;
+    width: 100%;
+    height: 1000px;
+}
+.navbar{
+    background: none !important;
+    align-items: flex-end;
+    padding-top: 30px;
+}
+.navbar-brand{
+    font-weight: 800;
+    color: #ff6a6d !important;
+    font-size: 32px;
+    font-family: 'Nunito Sans';
+}
+.nav-link{
+    font-size: 18px;
+    font-family: 'Nunito Sans';
+    width: 100px;
+
+}
+ .nav-link:hover {
+    font-weight: 600;
+    color: #ff6a6d !important;
+
+}
+.btn{
+    background: #ff6a6d;
+    padding: 10px 30px;
+    margin-left: 80px;
+    font-size: 18px;
+    width: 190px;
+    border-radius: 50px;
+    color: #fff !important;
+    box-shadow:5px 5px 24px 2px #752425;
+
+    
+}
+.btn:hover{
+    color: #fff !important;
+}
+h1{
+   font-size: 45px;
+   margin: 80px 0 30px;
+   color:#3b3838;
+   font-family: 'Nunito Sans';
+   font-weight: 600;
+   
+   
+   
+}
+h1 span{
+    display: flex;
+}
+.text{
+    line-height: 40px;
+    
+}
+.text p{
+    max-width: 485px;
+    color: #687f80;
+    font-size: 18px;
+   
+}
+.service a{
+    border: 2px solid #ff6a6d;
+    border-radius: 50px;
+    padding: 25px 60px 20px;
+    color: #ff6a6d;
+    margin-right: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+.service{
+    margin-top: 60px;
+}
+.service a:hover{
+    background: #ff6a6d;
+    color: #fff;
+    transition: 0.5s;
+    box-shadow:5px 5px 24px 2px #752425;
+}
+.box p{
+    max-width: 666px;
+    margin: 0 auto;
+    margin-top: 45px;
+    color: #687f80;
+    line-height: 30px;
+    font-size: 18px;
+}
+.box h2{
+    font-weight: 800;
+    color: #3b3838;
+    font-size: 40px;
+}
+.block{
+    width: 270px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.block img{
+    width: 260px;
+}
+.block p{
+    color: #687f80;
+    font-size: 18px;
+}
+.block h4{
+    color: #3b3838;
+    margin: 30px 0 20px;
+
+}
+.on .row{
+    margin: 0;
+}
+.on{
+    margin-top: 200px;
+}
+.on h2{
+  font-weight: 800;
+  color: #3b3838;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+.second img{
+    max-width: 600px;
+    max-width: 600px;
+}
+
+.first{
+    position: relative;
+}
+.first img{
+    position: absolute;
+    top: 200px;
+}
+.second{
+    position: relative;
+}
+.second img{
+    position: absolute;
+    right: 0;
+    top: -200px;
+}
+.yoga img{
+    max-width: 550px;
+}
+.list h4{
+  margin:30px 0 20px;
+  font-weight: 800;
+  color: #3b3838;
+  font-size: 24px;
+}
+.list p{
+    color:#687f80;
+    margin-left: 50px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.list h4 svg{
+    margin-right:10px;
+    color: #ff6a6d;
+}
+.power{
+    margin-top: 200px;
+}
+.healing-power h2{
+   font-size: 40px;
+   font-weight: 800;
+   color: #3b3838;
+}
+.healing-power p{
+    color: #687f80;
+    line-height: 30px;
+    margin: 50px 0 50px;
+    font-size: 18px;
+}
+.read-more{
+ color: #3cbef1;
+ font-size: 18px;
+ font-style: italic;
+}
+.read-more::after{
+    content: ">";
+    margin-left: 5px;
+}
+.power-item img{
+    max-width: 550px;
+}
+.third{
+    position: relative;
+}
+.third img{
+    position: absolute;
+    margin-left: 0;
+    top: 250px;
+}
+.fourth{
+    position: relative;
+}
+.fourth img{
+    position: absolute;
+    right: 0;
+    margin-top: -160px;
+}
+.fifth{
+    position: relative;
+}
+.fifth img{
+    position: absolute;
+    right: 0;
+}
+.clone{
+    font-weight: 800;
+    color: #3b3838;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.ways {
+    margin-top: 200px;
+}
+.ways-img img{
+    max-width: 500px;
+}
+.text-item p{
+    color: #687f80;
+    line-height: 30px;
+    margin: 50px 0 50px;
+    font-size: 18px;
+}
+
+.text-item{
+
+    margin: 0 auto;
+    text-align: start;
+}
+footer{
+    background: url('../images/Vector Smart Object copy 5.png') no-repeat top  center/ cover;
+   
+    margin-top: 200px;
+}
+.cards{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+.card{
+    width: 250px;
+    height: 380px;
+    margin-top: 50px;
+    box-shadow:5px 5px 24px 2px #c74f5188; 
+    z-index: 0;
+    border-radius: 15px;
+    
+}
+.card1{
+    width: 300px;
+    height: 450px;
+    background: #fff;
+    margin-top: 15px;
+    box-shadow:5px 5px 24px 2px #c74f5188; 
+    border-radius: 15px;
+    z-index: 1;
+}
+.card-header{
+    background: #ff6a6d;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    font-family: 'Nunito Sans';
+    padding: 20px;
+    width: 100%;
+    border-radius: 15px 15px 0 0 !important;
+}
+.card-body svg{
+    color: #ff6a6d;
+    margin-right: 10px;
+    
+}
+.card-body li{
+  color: #687f80;
+  margin-bottom: 10px;
+}
+.card-body h2{
+    color: #687f80;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+
+}
+.card-body h2 span{
+    font-size: 80px;
+    font-weight: 600;
+    
+}
+.card-body h2::before{
+    content: "$";
+    top: 0px;
+    left: 0;
+    position: absolute;
+}
+.card-body p{
+    font-size: 15px;
+    color: #687f80;
+    text-align: center;
+}
+.card-body .button{
+  display: flex;
+   justify-content: center;
+   margin-top: 15px;
+   
+  
+}
+.card-body{
+    width: 300px;
+}
+.card-body .button a{
+    background: #ff6a6d;
+    padding: 15px 25px;
+    border-radius: 50px;
+    color:#fff !important;
+    font-weight: 600;
+    box-shadow:5px 5px 24px 2px #752425;
+}
+
+
+.card .card-body li svg{
+    color: #3cbef1;
+}
+.card .card-body{
+    width: 250px;
+}
+.card .card-body h3{
+    text-align: center;
+    color: #6d6d6d;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.card .button a{
+    background: #3cbef1;
+    box-shadow:5px 5px 24px 2px #1e6986;
+}
+.ft{
+  margin-top: 200px;
+  background: rgba(255, 255, 255, 0.479);
+  padding: 100px 100px 20px 100px;
+  border-radius: 50px 50px 0 0;
+}
+.ft ul{
+   
+}
+.ft li {
+   line-height: 30px;
+}
+.ft p{
+    line-height: 30px;
+    color: #687f80;
+    margin-bottom: 40px;
+}
+.ft h3{
+    color: #5a686c;
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+.ft li a{
+    color: #6d6d6d !important;
+}

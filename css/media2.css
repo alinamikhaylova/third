@@ -1,0 +1,111 @@
+@media (max-width:1199.98px) {
+   h1 {
+       max-width: 400px;
+   } 
+}
+@media (max-width:991.98px) {
+  .nav-link{
+      width: 100%;
+  }  
+  .btn{
+      margin: 0;
+      width: 190px;
+  }
+  .item-btn{
+      margin: 10px auto;
+  }
+  footer .container{
+      flex-direction: column;
+  }
+  .card{
+      margin-top: 10px;
+      margin: 0 auto;
+  }
+  .card1{
+      margin: 0 auto;
+  }
+ .ft .row{
+  margin-left: 50%;
+  transform: translate(-50%);
+
+ }
+ .card1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+  
+  
+}
+@media (max-width:767px) {
+    
+}
+@media (max-width:575.98px) {
+    .ways-img img{
+        max-width: 250px;
+    }
+    .power-item img{
+        max-width: 250px;
+    }
+    .power-item{
+        text-align: center;
+    }
+    .yoga img{
+        max-width: 250px;
+        
+    }
+    .on{
+        margin-top: 100px;
+    }
+    .first img{
+       width: 100px;
+        top: 0;
+    }
+    header{
+        background: url('../images/Warstwa 1.png') no-repeat right center/ cover;
+    }
+    h1{
+        background: rgba(255, 255, 255, 0.562);
+        border-radius: 50px;
+        padding: 10px 10px;
+    }
+    .text{
+        background: rgba(255, 255, 255, 0.753);
+        padding: 10px 15px;
+        border-radius: 50px;
+        color: #3b3838;
+    }
+    .service{
+        text-align:center ;
+    }
+    .service a{
+       padding: 10px 25px;
+       font-size: 15px;
+       border:3px solid #fff;
+       color: #fff;
+       background: #ff6a6d;
+    }
+    .box{
+        position: static !important;
+        margin-top: 80px;
+    }
+    .ft{
+        padding: 20px ;
+        
+    }
+    header .col-xl-6 .text{
+       display: none;
+    }
+    h1{
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .fifth{
+        display: none;
+    }
+    
+}
